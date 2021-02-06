@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "instafoods",
+  "version": "1.0.0",
+  "main": "./server/server.js",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "build": "cd client && npm run build && mkdir -p ../server/public && cp -r ./build/* ../server/public",
+    "start": "node ."
+  }
+}
