@@ -1,8 +1,9 @@
 {
-  "private": true,
   "name": "instafoods",
   "version": "1.0.0",
+  "private": true,
   "main": "./server/server.js",
+  "devDependencies": {},
   "workspaces": [
     "client",
     "server"
@@ -10,5 +11,8 @@
   "scripts": {
     "build": "cd client && npm run build && mkdir -p ../server/public && cp -r ./build/* ../server/public",
     "start": "node ."
-  }
+  },
+  "keywords": [],
+  "author": "Kartik Malik <kartikmalik91@gmail.com> (https://www.kartikmalik.com/)",
+  "license": "ISC"
 }
