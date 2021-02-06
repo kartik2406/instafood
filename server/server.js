@@ -4,7 +4,7 @@ require("./db");
 const express = require("express");
 const app = express();
 const { getLocationCords, getNearestOutlet } = require("./utils");
-const PORT = 4000 || process.env.PORT;
+const PORT = process.env.PORT || 4000;
 
 app.get("/api/outlets", async (req, res) => {
   let address = req.query.address;
