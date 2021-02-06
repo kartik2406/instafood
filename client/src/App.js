@@ -40,7 +40,7 @@ function App() {
       <button className="btn" onClick={getOutletCode}>
         Search
       </button>
-      {outletInfo && <p className="outlet-info">{outletInfo}</p>}
+      <p className="outlet-info">{outletInfo}</p>
     </main>
   );
 }

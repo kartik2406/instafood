@@ -42,4 +42,5 @@
 .outlet-info {
   color: #fff;
   font-size: 1.1rem;
+  min-height: 1.5rem;
 }
