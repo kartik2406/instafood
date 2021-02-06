@@ -15,6 +15,7 @@ DB: Mongodb
 UI: http://localhost:3000/
 API: http://localhost:4000/api/outlets?address=address
 
+Adding the address in search box, and clicking on search will fetch the outlet name.
 
 ### Project features
 - API that takes users location,  get latitude and longitude from the same using third party API

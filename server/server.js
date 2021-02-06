@@ -11,6 +11,7 @@ app.get("/api/outlets", async (req, res) => {
   console.log("Received address", address);
   if (!address)
     return res.status(400).send({ message: "Please provide a valid address." });
+  address = address.trim();
   try {
     let coordinates = await getLocationCords(address);
     console.log("coordinates", coordinates);
