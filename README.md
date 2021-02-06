@@ -5,6 +5,7 @@ Backend: Nodejs
 Frontend: React
 
 DB: Mongodb
+The data from KML file is converted into GeoJson and stored into MongoDB
 
 ### Hosted URL
 
@@ -36,5 +37,5 @@ Adding the address in search box, and clicking on search will fetch the outlet n
 
 ### Known issues
 
-- The third party API at times fails, wanted to swithc to google API but was facing issues as it said I needed
+- The third party API fails at times, wanted to switch to google API but was facing issues as it said I needed
   billed account.
